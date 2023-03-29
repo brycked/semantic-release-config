@@ -15,8 +15,8 @@ const config: import("semantic-release").Options = {
         changelogFile: "CHANGELOG.md",
       },
     ],
-    "@semantic-release/npm",
-    "@semantic-release/github",
+    ["@semantic-release/npm", { tarballDir: "pack" }],
+    ["@semantic-release/github", { assets: "pack/*.tgz" }],
     [
       "@semantic-release/git",
       {
