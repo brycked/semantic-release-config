@@ -16,4 +16,28 @@ pnpm add --dev @bricked/semantic-release-config
 
 ## Usage
 
-`semantic-release-config` can be used as a shared semantic-release configuration for my projects.
+`@bricked/semantic-release-config` can be used as a shareable [configuration](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md).
+
+- Via `release` key in the project's `package.json` file:
+
+```json
+{
+  "release": {
+    "extends": "@bricked/semantic-release-config"
+  }
+}
+```
+
+- Via `.releaserc` file:
+
+```json
+{
+  "extends": "@bricked/semantic-release-config"
+}
+```
+
+- Via CLI argument:
+
+```sh
+$ semantic-release --extends @bricked/semantic-release-config
+```
