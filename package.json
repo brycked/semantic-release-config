@@ -5,13 +5,13 @@
   "keywords": [
     "semantic-release-config"
   ],
-  "homepage": "https://github.com/brycked/semantic-release-config#readme",
+  "homepage": "https://github.com/brckd/semantic-release-config#readme",
   "bugs": {
-    "url": "https://github.com/brycked/semantic-release-config/issues"
+    "url": "https://github.com/brckd/semantic-release-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brycked/semantic-release-config.git"
+    "url": "git+https://github.com/brckd/semantic-release-config.git"
   },
   "license": "MIT",
   "author": "Bricked",
