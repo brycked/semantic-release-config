@@ -16,7 +16,7 @@ const config: import("semantic-release").Options = {
       },
     ],
     ["@semantic-release/npm", { tarballDir: "pack" }],
-    ["@semantic-release/github", { assets: "pack/*.tgz" }],
+    ["@semantic-release/github", { assets: ["dist/*.js", "pack/*.tgz"] }],
     [
       "@semantic-release/git",
       {
