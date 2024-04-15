@@ -50,7 +50,7 @@
     "@bricked/eslint-config": "^1.0.0",
     "@bricked/prettier-config": "^1.0.0",
     "@bricked/ts-config": "^1.2.0",
-    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/config-conventional": "^19.2.2",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/signale": "^1.4.7",
